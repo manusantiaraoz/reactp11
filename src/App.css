@@ -1,6 +1,6 @@
 body{
   background-color: #9b9b9b;
-background-image: linear-gradient(62deg, #2a2b2c 0%, #7c10e2 100%);
+background-image: linear-gradient(143deg, #f6e7e7 0%, #000000 100%);
 min-height: 100vh;
 }
 
@@ -38,6 +38,10 @@ min-height: 100vh;
   left: 100%;
 }
 
+.imgcard{
+width: 100%;
+}
+
 @keyframes animPend {
   0% {
     transform: rotate(22deg);
@@ -53,5 +57,10 @@ min-height: 100vh;
   }
   100% {
     transform: rotate(-22deg);
+  }
+}
+@media screen and (min-width: 992px) {
+  .imgcard{
+    width: 30%;
   }
 }
